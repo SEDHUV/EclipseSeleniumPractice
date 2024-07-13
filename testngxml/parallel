@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test parallel="methods" thread-count="5" name="Test">
+	 <parameter name="Par" value="haema"></parameter>
+    <classes>
+     <class name="TestNG.depends"/>
+      <class name="TestNG.demo"/>
+      <class name="TestNG.realtimextestcase"/>
+      <class name="TestNG.priorityandskip"/>
+       <class name="TestNG.groupingmethods"/>
+       <class name="TestNG.parameterization"/>-->-->
+       <class name="TestNG.parallel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

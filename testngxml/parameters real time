@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="username" value="standard_user"/>
+	   <parameter name="password" value="secret_sauce"/>
+    <classes>
+      <class name="logintestcases.bothcorrect"/>
+       </classes>
+       </test>
+       <test thread-count="5" name="Test1">
+		   <parameter name="username" value="standard_use"/>
+	   <parameter name="password" value="secret_sauc"/>
+	 <classes>
+      <class name="logintestcases.bothwrong"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
